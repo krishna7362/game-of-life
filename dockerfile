@@ -1,1 +1,1 @@
-FROM adoptopenjdk/openjdk8:latest
+ FROM openjdk:8

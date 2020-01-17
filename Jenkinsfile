@@ -48,6 +48,6 @@ pipeline {
 	      post {
        always {
            jiraSendBuildInfo site: 'kpriyabp.atlassian.net'
-       }
+       }}
 }
 }

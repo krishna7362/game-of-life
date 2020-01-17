@@ -14,7 +14,7 @@ pipeline {
  }
  }
  
- stage('test'){
+/* stage('test'){
  steps{
  bat 'mvn test'
  
@@ -43,6 +43,6 @@ pipeline {
       steps {
         bat 'docker build -t test:0.1 .'
       }
-    }
+    }*/
 }
 }

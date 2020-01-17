@@ -44,5 +44,10 @@ pipeline {
         bat 'docker build -t test:0.1 .'
       }
     }*/
+	    
+	      post {
+       always {
+           jiraSendBuildInfo site: 'kpriyabp.atlassian.net'
+       }
 }
 }
